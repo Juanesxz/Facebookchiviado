@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #477eff;
+  font-size: 60px;
+  font-stretch: narrower;
+  letter-spacing: -3px;
+}
+h2 {
+  font-weight: normal;
+  width: auto;
+  line-height: 28px;
+  font-size: 28px;
+  margin: 10px 0;
+  font-weight: normal;
+  color: rgb(10, 9, 9);
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 496px;
+  margin: 40px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerface {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .containerface {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.title {
+  margin: 0 20px;
+  width: 500px;
+}
+
+.formulario {
+  background-color: white;
+  width: 396px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 16px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.forminput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+  text-align: center;
+}
+.forminput input {
+  margin: 4px 0;
+  padding: 15px;
+  border: 1px solid rgb(209, 205, 205);
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.login {
+  background-color: #306dfc;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 0;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.login:hover {
+  cursor: pointer;
+}
+
+.create {
+  padding: 14px 16px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  margin: 20px auto;
+  font-size: 17px;
+  max-width: 200px;
+}
+
+.create:hover {
+  cursor: pointer;
+}
+
+.divbotones {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-top: 28px;
+  font-size: 14px;
+}
